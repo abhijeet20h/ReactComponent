@@ -46,8 +46,32 @@ left: 50%;
   text-align: end;
   margin-right: 13px;
 }
-html,
+
 body {
   overflow-x: hidden;
   overflow-y: auto;
+}
+.img-size {
+  width: 400px;
+  height: 200px;
+}
+.b {
+  border-radius: 10px;
+  border: none;
+  margin: 2px;
+}
+.b:hover {
+  background-color: rgb(127, 195, 243);
+}
+.img-size:hover {
+  transform: rotate(10deg);
+  border-radius: 50%;
+  border: none;
+}
+.v:hover{
+  border: none; 
+  background-color: black;
+}
+.name h1:hover{
+  font-size: 60px;
 }

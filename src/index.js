@@ -5,10 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <>
+
     <App />
-    <header imgsrc="https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg" />
-  </>,
+,
   document.getElementById("root")
 );
 
