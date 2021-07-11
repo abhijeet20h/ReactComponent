@@ -4,7 +4,8 @@
 // import Test from "./components/Test";
 // import Toao from "./components/Toao";
 // import Count from "./components/count";
-import MapMethod from "./components/MapMethod";
+// import MapMethod from "./components/MapMethod";
+import Counterex from "./components/Counterex";
 import "./App.css";
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
           <Count />
         </div>
       </div> */}
-      <MapMethod />
+      {/* <MapMethod /> */}
+      <Counterex />
     </div>
   );
 }
