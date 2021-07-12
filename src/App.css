@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+.dark-theme {
+  height: 500px;
+  width: 100%;
+  background-color: #282c34;
+}
+
+.light-theme {
+  height: 500px;
+  width: 100%;
+  background-color: #61dafb;
+}
