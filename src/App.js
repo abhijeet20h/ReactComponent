@@ -11,10 +11,26 @@ import ToggleButton from "./components/ToggleButton";
 import "./App.css";
 import LiftingStateUp from "./components/LiftingStateUp";
 import ContextExample from "./components/ContextExample/ContextExample";
+import HooksExample from './components/HooksExample'
+import Home from './components/Navigation/Home'
+import About from './components/Navigation/About'
+import Dashboard from './components/Navigation/Dashboard'
+import { Router, Route  } from 'react-router'
+
 function App() {
+  
   return (
     <div className="App">
-      <ContextExample />
+    <Router>
+    <div>  <li>Home</li></div>
+    <div>  <li>About</li></div>
+    <div>  <li>Dashboard</li></div>
+    <switch>
+      <Route  path="/Home">Home</Route>
+      <Route  path="/About">About</Route>
+      <Route  path="/Dashboard">Dashboard</Route>
+    </switch>
+  </Router>
     </div>
   );
 }
